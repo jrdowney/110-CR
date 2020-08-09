@@ -1,0 +1,68 @@
+@{
+    ViewData["Title"] = "Register";
+}
+
+<form class="col-12">
+    <div class="text-center">
+    <h3 class="card-header">Register Property</h3>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Name: </label>
+        <div class="col-8">
+            <input id="txtName" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label">Rooms: </label>
+        <div class="col-8">
+            <input id="txtRooms" type="number" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label" > Bathrooms: </label>
+        <div class="col-8">
+            <input id="txtBathrooms" type="number" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label" >Price: </label>
+        <div class="col-8">
+            <input id="txtPrice" type="number" class="form-control">
+        </div>
+    </div>
+    
+    <div class="form-group row">
+        <label class="col-4 col-form-label" >Square Foot:  </label>
+        <div class="col-8">
+            <input id="txtSqrFeet" type="number" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label" >Image Url: </label>
+        <div class="col-8">
+            <input id="txtImage" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <label class="col-4 col-form-label" >Decription: </label>
+        <div class="col-8">
+            <input id="txtDescription" type="text" class="form-control">
+        </div>
+    </div>
+
+    <div class="form-group row">
+        <div class="col-8 offset-4">
+            <button type="button" class="btn btn-primary" id="btnSave">Register Property</button>
+        </div>
+    </div>
+</form>
+
+@section Scripts{
+    <script src="/js/register.js"></script>
+}
