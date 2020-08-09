@@ -1,0 +1,34 @@
+
+#catalogContainer{
+    background-color:#f4f4f4;
+    height: 100%;
+}
+@media(min-width:768px){
+    #catalogContainer{
+        display: grid;
+        grid-template-columns: 48% 48%;
+        column-gap: 2rem;
+    }
+}
+
+.item {
+    border: 1px solid rgba(149, 161, 154, 0.66);
+    background-color: rgba(223, 231, 226, 0.66);
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 2rem;
+}
+
+.item img {
+    display: block;
+    width: 100%;
+    max-height: 120px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: rgba(23, 38, 29, 0.66);
+}
+
+
